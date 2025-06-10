@@ -15,8 +15,8 @@ export default function LevelOne() {
   // Level 1: Complex system of linear equations with irrational solutions
   // 3x + 7y = 29
   // 5x - 2y = 11
-  // Solution: x = 67/41, y = 118/41
-  const correctAnswers = { x: 67/41, y: 118/41 }
+  // Solution: x = 135/41, y = 112/41 (equivalent to 784/287)
+  const correctAnswers = { x: 135/41, y: 112/41 }
 
   const checkAnswer = () => {
     const userX = parseFloat(userAnswers.x)
